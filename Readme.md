@@ -42,7 +42,7 @@ You'll still need to enable FTDI drivers in WSL, and repeat the USBIPD connectio
 
 ## 3 - Build
 
-Lets use the Blinky test script as an example to upload and 
+Lets use the Blinky test script as an example to upload. First lets build the code:
 
 ```
 cd 00-blinky
@@ -51,7 +51,7 @@ apio build -b upduino31
 
 ## 4 - Upload
 
-Sending the bitstream to the board is easy!
+Sending the bitstream is equally easy!
 
 ```
 apio upload -b upduino31
